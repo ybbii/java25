@@ -1,0 +1,14 @@
+
+<최초 리포지토리 명령어>
+git init  
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ybbii/20250721Java.git
+git push -u origin main
+
+
+<그 이후 파일 올릴 때 명령어>
+git add .
+git commit -m "first commit"
+git push -u origin main

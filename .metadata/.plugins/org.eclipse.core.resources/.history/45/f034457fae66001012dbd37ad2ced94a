@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class ScoreTest {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("점수를 입력하세요 :");
+		String inputData = sc.nextLine();
+		int i = Integer.parseInt(inputData);
+		
+		if (i>=90) {
+			System.out.println("A");
+		} else if (i<90) {
+			System.out.println("B");
+		} else if (i>70) {
+			System.out.println("C");
+		} else if (i<70){
+			System.out.println("F");
+		}
+
+	}
+
+}
