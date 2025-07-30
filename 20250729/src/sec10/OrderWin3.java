@@ -88,8 +88,7 @@ public class OrderWin3 extends JFrame {
 				String product = tf2.getText();
 				int quantity = Integer.parseInt(tf3.getText());
 
-				sql = String.format("insert into order0729(order_id, product, quantity) values ('%s', '%s', %d)",
-						orderId, product, quantity);
+				sql = String.format("insert into order0729(order_id, product, quantity) values ('%s', '%s', %d)", orderId, product, quantity);
 				System.out.println(sql);
 				try {
 					stmt.executeUpdate(sql);
