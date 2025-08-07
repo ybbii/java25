@@ -24,4 +24,8 @@
     <fullyQualifiedTypeName name="java.lang.Iterable"/>
     <fullyQualifiedTypeName name="java.util.NoSuchElementException"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="sec03.A.B"/>
+    <fullyQualifiedTypeName name="sec04.A.B"/>
+    <fullyQualifiedTypeName name="sec04.Outter.Nested"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
 </qualifiedTypeNameHistroy>
