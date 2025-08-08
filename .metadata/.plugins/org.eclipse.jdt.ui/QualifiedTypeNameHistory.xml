@@ -3,7 +3,6 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="javax.swing.JButton"/>
-    <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
     <fullyQualifiedTypeName name="sec01.OrderStatus"/>
     <fullyQualifiedTypeName name="sec01.Car"/>
     <fullyQualifiedTypeName name="java.io.InputStream"/>
@@ -28,4 +27,11 @@
     <fullyQualifiedTypeName name="sec04.A.B"/>
     <fullyQualifiedTypeName name="sec04.Outter.Nested"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="sec01.Button.OnClickListener"/>
+    <fullyQualifiedTypeName name="sec03.Button.OnClickListener"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="sec04.MyFunctionalInterface"/>
+    <fullyQualifiedTypeName name="java.awt.Container"/>
+    <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+    <fullyQualifiedTypeName name="java.awt.event.WindowListener"/>
 </qualifiedTypeNameHistroy>
