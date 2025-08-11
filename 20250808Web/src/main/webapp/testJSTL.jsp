@@ -1,4 +1,4 @@
-<%@page import="sec01.Student"%>
+<%@page import="sec02.Student"%>
 <%@page import="java.util.ArrayList"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
