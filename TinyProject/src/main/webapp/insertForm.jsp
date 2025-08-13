@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="insert.jsp">
+<form action="insert">
 <input type="text" name="content"/>
 <input type="submit" />
 </form>

@@ -3,13 +3,7 @@
 <%@page import="dao.TinyDAO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
-<%
-TinyDAO dao = new TinyDAO();
-List<TinyDTO> list = dao.selectList();
-%>
-
-
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,16 +22,12 @@ th, td {
 </head>
 <body>
 <table>
-<%
-for (TinyDTO dto : list) {
-%>
+<c:forEach var="dto" items="${list}">
 	<tr>
-	<td><%=dto.getNum() %></td><td><%=dto.getContent() %></td>
+	<td><a href="updateForm?num=${dto.num }">${dto.num }</a></td><td>${dto.content }</td><td><button type="button" onclick="location.href='delete?num=${dto.num}' ">삭제</button></td>
 	</tr>
-<%
-}
-%>
+</c:forEach>
 </table>
-<button type="button" onclick="location.href='insertForm.jsp' ">글쓰기</button>
+<button type="button" onclick="location.href='insertForm' ">글쓰기</button>
 </body>
 </html>
