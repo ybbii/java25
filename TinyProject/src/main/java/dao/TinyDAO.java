@@ -2,9 +2,9 @@ package dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,12 +21,16 @@ public class TinyDAO {
 	public List<TinyDTO> selectList() {  // tiny 테이블의 모든 자료를 가져옴
 		List<TinyDTO> list = new ArrayList<TinyDTO>();
 		Connection conn = null;
-		Statement stmt = null;
+		PreparedStatement stmt = null;
 		ResultSet rs = null;
 		try {
 		    conn = getConnection();
-		    stmt = conn.createStatement();
-		    rs = stmt.executeQuery("SELECT * FROM tiny");
+		    // satement 사용
+//		    stmt = conn.createStatement();
+//		    rs = stmt.executeQuery("SELECT * FROM tiny");
+		    // prepared statement 사용
+		    stmt = conn.prepareStatement("SELECT * FROM tiny");
+		    rs = stmt.executeQuery();
 		    while (rs.next()) {
 		        int num = rs.getInt("num");
 		        String content = rs.getString("content");
@@ -50,13 +54,16 @@ public class TinyDAO {
 	
 	public void insertOne(TinyDTO dto) {
 		Connection conn = null;
-		Statement stmt = null;
+		PreparedStatement stmt = null;
 
 		try {
 		    conn = getConnection();
-		    stmt = conn.createStatement();
-		    stmt.executeUpdate(String.format("insert into tiny(num, content) values (tiny_seq.nextval, '%s')", dto.getContent()));
+//		    stmt = conn.createStatement();
+//		    stmt.executeUpdate(String.format("insert into tiny(num, content) values (tiny_seq.nextval, '%s')", dto.getContent()));
 		  
+		   stmt = conn.prepareStatement("insert into tiny(num, content) values (tiny_seq.nextval, ?)");
+		   stmt.setString(1, dto.getContent());
+		   stmt.executeUpdate();
 		} catch (SQLException e) {
 			System.out.println("데이터베이스 오류: " + e.getMessage());
 		} catch (ClassNotFoundException e) {
@@ -73,13 +80,15 @@ public class TinyDAO {
 	
 	public void deleteOne(String num) {
 		Connection conn = null;
-		Statement stmt = null;
-
+		PreparedStatement stmt = null;
 		try {
 		    conn = getConnection();
-		    stmt = conn.createStatement();
-		    stmt.executeUpdate(String.format("delete from tiny where num = %s", num));
-		  
+//		    stmt = conn.createStatement();
+//		    stmt.executeUpdate(String.format("delete from tiny where num = %s", num));
+
+		    stmt = conn.prepareStatement("delete from tiny where num = ?");
+		    stmt.setString(1, num);
+		    stmt.executeUpdate();
 		} catch (SQLException e) {
 			System.out.println("데이터베이스 오류: " + e.getMessage());
 		} catch (ClassNotFoundException e) {
@@ -97,12 +106,15 @@ public class TinyDAO {
 	public TinyDTO selectOne(String num) {
 		TinyDTO dto = null;
 		Connection conn = null;
-		Statement stmt = null;
+		PreparedStatement stmt = null;
 		ResultSet rs = null;
 		try {
 		    conn = getConnection();
-		    stmt = conn.createStatement();
-		    rs = stmt.executeQuery("SELECT * FROM tiny where num = " + num);
+//		    stmt = conn.createStatement();
+//		    rs = stmt.executeQuery("SELECT * FROM tiny where num = " + num);
+		    stmt = conn.prepareStatement("SELECT * FROM tiny where num = ?");
+		    stmt.setString(1, num);
+		    rs = stmt.executeQuery();
 		    if (rs.next()) {
 		        int num1 = rs.getInt("num");
 		        String content = rs.getString("content");
@@ -126,13 +138,16 @@ public class TinyDAO {
 	
 	public void updateOne(TinyDTO dto) {
 		Connection conn = null;
-		Statement stmt = null;
-
+		PreparedStatement stmt = null;
 		try {
 		    conn = getConnection();
-		    stmt = conn.createStatement();
-		    stmt.executeUpdate(String.format("update tiny set content = '%s' where num = %d", dto.getContent(), dto.getNum()));
-		  
+//		    stmt = conn.createStatement();
+//		    stmt.executeUpdate(String.format("update tiny set content = '%s' where num = %d", dto.getContent(), dto.getNum()));
+		    stmt = conn.prepareStatement("update tiny set content = ? where num = ?");
+		    stmt.setString(1, dto.getContent());
+		    stmt.setInt(2, dto.getNum());
+		    stmt.executeUpdate();
+		    
 		} catch (SQLException e) {
 			System.out.println("데이터베이스 오류: " + e.getMessage());
 		} catch (ClassNotFoundException e) {
