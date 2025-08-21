@@ -40,8 +40,7 @@ public class Controller extends HttpServlet {
 
 			String userId = (String) session.getAttribute("userId");
 
-			if ((String) session.getAttribute("userId") != null) {
-				request.setAttribute("userId", userId);
+			if (userId != null) {
 				view = "loginOk.jsp";
 			} else {
 				view = "redirect:loginForm.jsp";

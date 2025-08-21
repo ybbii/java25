@@ -7,8 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-        <form action="logout" method="post">  
-            <%=(String)session.getAttribute("userName")%>님 로그인
+        <form action="logout" method="post">
+        ${sessionscope. }님 로그인
             <input type="submit" value="로그아웃">
         </form>
 </body>
