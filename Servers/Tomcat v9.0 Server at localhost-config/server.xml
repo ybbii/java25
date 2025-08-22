@@ -162,7 +162,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="CookieQuiz" path="/CookieQuiz" reloadable="true" source="org.eclipse.jst.jee.server:CookieQuiz"/><Context docBase="chap15" path="/chap15" reloadable="true" source="org.eclipse.jst.jee.server:chap15"/><Context docBase="MyGuestBook" path="/MyGuestBook" reloadable="true" source="org.eclipse.jst.jee.server:MyGuestBook"/><Context docBase="TinyProject" path="/TinyProject" reloadable="true" source="org.eclipse.jst.jee.server:TinyProject"/><Context docBase="20250821Maven" path="/20250821Maven" reloadable="true" source="org.eclipse.jst.jee.server:20250821Maven"/></Host>
+      <Context docBase="CookieQuiz" path="/CookieQuiz" reloadable="true" source="org.eclipse.jst.jee.server:CookieQuiz"/><Context docBase="chap15" path="/chap15" reloadable="true" source="org.eclipse.jst.jee.server:chap15"/><Context docBase="MyGuestBook" path="/MyGuestBook" reloadable="true" source="org.eclipse.jst.jee.server:MyGuestBook"/><Context docBase="TinyProject" path="/TinyProject" reloadable="true" source="org.eclipse.jst.jee.server:TinyProject"/><Context docBase="20250821Maven" path="/20250821Maven" reloadable="true" source="org.eclipse.jst.jee.server:20250821Maven"/><Context docBase="20250822Web" path="/20250822Web" reloadable="true" source="org.eclipse.jst.jee.server:20250822Web"/><Context docBase="SessionLogin2" path="/SessionLogin2" reloadable="true" source="org.eclipse.jst.jee.server:SessionLogin2"/></Host>
     </Engine>
   </Service>
 </Server>

@@ -306,3 +306,209 @@
 2025-08-21 16:28:45,479 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250821Maven\src\main\resources
 2025-08-21 16:28:45,480 [Worker-173: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2025-08-21 16:28:45,480 [Worker-173: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250821Maven\src\test\resources
+2025-08-22 09:01:17,711 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-08-22 11:35:18,882 [Worker-144: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 20250822Web:20250822Web:0.0.1-SNAPSHOT @ C:\_dev\workspace\20250822Web\pom.xml.
+2025-08-22 11:35:19,611 [Worker-144: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /20250822Web/src/main/java
+2025-08-22 11:35:19,612 [Worker-144: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /20250822Web/src/main/resources
+2025-08-22 11:35:19,613 [Worker-144: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /20250822Web/src/test/java
+2025-08-22 11:35:19,613 [Worker-144: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /20250822Web/src/test/resources
+2025-08-22 11:35:19,764 [Worker-144: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-22 11:35:19,863 [Worker-144: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 20250822Web:20250822Web:0.0.1-SNAPSHOT @ C:\_dev\workspace\20250822Web\pom.xml.
+2025-08-22 11:35:20,206 [Worker-144: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /20250822Web/src/main/java
+2025-08-22 11:35:20,207 [Worker-144: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /20250822Web/src/main/resources
+2025-08-22 11:35:20,207 [Worker-144: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /20250822Web/src/test/java
+2025-08-22 11:35:20,207 [Worker-144: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /20250822Web/src/test/resources
+2025-08-22 11:35:20,257 [Worker-144: Enabling Maven Dependency Management] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for 20250822Web
+2025-08-22 11:35:20,271 [Worker-144: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-08-22 11:35:20,469 [Worker-144: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 11:35:20,470 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\main\resources
+2025-08-22 11:35:20,473 [Worker-144: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 11:35:20,474 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\test\resources
+2025-08-22 11:35:20,475 [Worker-144: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of 20250822Web
+2025-08-22 11:35:20,477 [Worker-144: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for 20250822Web
+2025-08-22 11:36:03,679 [Worker-149: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 20250822Web:20250822Web:0.0.1-SNAPSHOT @ C:\_dev\workspace\20250822Web\pom.xml.
+2025-08-22 11:36:03,925 [Worker-149: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 11:36:03,926 [Worker-149: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\main\resources
+2025-08-22 11:36:03,927 [Worker-149: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 11:36:03,927 [Worker-149: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\test\resources
+2025-08-22 11:36:03,928 [Worker-149: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of 20250822Web
+2025-08-22 11:36:03,928 [Worker-149: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for 20250822Web
+2025-08-22 11:37:09,162 [Worker-150: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 20250822Web:20250822Web:0.0.1-SNAPSHOT @ C:\_dev\workspace\20250822Web\pom.xml.
+2025-08-22 11:37:09,260 [Worker-150: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.38/lombok-1.18.38.pom
+2025-08-22 11:37:09,275 [Worker-150: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.38/lombok-1.18.38.pom
+2025-08-22 11:37:09,307 [Worker-150: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar
+2025-08-22 11:37:09,659 [Worker-150: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar
+2025-08-22 11:37:09,848 [Worker-150: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 11:37:09,848 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\main\resources
+2025-08-22 11:37:09,850 [Worker-150: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 11:37:09,850 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\test\resources
+2025-08-22 11:37:09,851 [Worker-150: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of 20250822Web
+2025-08-22 11:37:09,851 [Worker-150: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for 20250822Web
+2025-08-22 11:37:10,835 [Worker-142: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.38/lombok-1.18.38-sources.jar
+2025-08-22 11:37:10,858 [Worker-142: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.38/lombok-1.18.38-sources.jar
+2025-08-22 11:37:10,860 [Worker-142: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.projectlombok:lombok:1.18.38
+2025-08-22 11:39:42,634 [Worker-147: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 11:39:42,634 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\main\resources
+2025-08-22 11:39:42,635 [Worker-147: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 11:39:42,636 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\test\resources
+2025-08-22 11:40:50,019 [Worker-152: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 11:40:50,020 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\main\resources
+2025-08-22 11:40:50,020 [Worker-152: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 11:40:50,021 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\test\resources
+2025-08-22 11:41:13,786 [Worker-147: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 11:41:13,786 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\main\resources
+2025-08-22 11:41:13,787 [Worker-147: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 11:41:13,787 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\test\resources
+2025-08-22 11:41:16,765 [Worker-147: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 11:41:16,766 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\main\resources
+2025-08-22 11:41:16,767 [Worker-147: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 11:41:16,767 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\test\resources
+2025-08-22 11:42:31,882 [Worker-148: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 11:42:31,882 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\main\resources
+2025-08-22 11:42:31,883 [Worker-148: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 11:42:31,883 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\test\resources
+2025-08-22 11:42:38,643 [Worker-147: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 11:42:38,643 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\main\resources
+2025-08-22 11:42:38,644 [Worker-147: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 11:42:38,644 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\test\resources
+2025-08-22 11:42:50,783 [Worker-147: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 11:42:50,783 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\main\resources
+2025-08-22 11:42:50,784 [Worker-147: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 11:42:50,784 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\test\resources
+2025-08-22 11:44:12,244 [Worker-150: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 11:44:12,245 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\main\resources
+2025-08-22 11:44:12,246 [Worker-150: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 11:44:12,246 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\test\resources
+2025-08-22 12:18:49,874 [Worker-150: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:18:49,874 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\main\resources
+2025-08-22 12:18:49,875 [Worker-150: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:18:49,875 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\test\resources
+2025-08-22 12:18:58,823 [Worker-150: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:18:58,823 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\main\resources
+2025-08-22 12:18:58,825 [Worker-150: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:18:58,826 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\test\resources
+2025-08-22 12:19:34,834 [Worker-151: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:19:34,836 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\main\resources
+2025-08-22 12:19:34,837 [Worker-151: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:19:34,837 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\test\resources
+2025-08-22 12:19:41,467 [Worker-152: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:19:41,467 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\main\resources
+2025-08-22 12:19:41,469 [Worker-152: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:19:41,469 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\test\resources
+2025-08-22 12:19:45,439 [Worker-144: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:19:45,439 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\main\resources
+2025-08-22 12:19:45,440 [Worker-144: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:19:45,441 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\test\resources
+2025-08-22 12:19:50,859 [Worker-144: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:19:50,859 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\main\resources
+2025-08-22 12:19:50,860 [Worker-144: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:19:50,860 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\test\resources
+2025-08-22 12:20:20,566 [Worker-148: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:20:20,567 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\main\resources
+2025-08-22 12:20:20,568 [Worker-148: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:20:20,568 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\test\resources
+2025-08-22 12:20:31,321 [Worker-150: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:20:31,322 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\main\resources
+2025-08-22 12:20:31,322 [Worker-150: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:20:31,324 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\test\resources
+2025-08-22 12:20:52,888 [Worker-151: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:20:52,888 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\main\resources
+2025-08-22 12:20:52,889 [Worker-151: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:20:52,890 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\test\resources
+2025-08-22 12:20:59,719 [Worker-142: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:20:59,720 [Worker-142: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\main\resources
+2025-08-22 12:20:59,721 [Worker-142: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:20:59,722 [Worker-142: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\test\resources
+2025-08-22 12:21:04,346 [Worker-152: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:21:04,346 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\main\resources
+2025-08-22 12:21:04,347 [Worker-152: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:21:04,347 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\test\resources
+2025-08-22 12:21:37,055 [Worker-152: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:21:37,055 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\main\resources
+2025-08-22 12:21:37,056 [Worker-152: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:21:37,056 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\20250822Web\src\test\resources
+2025-08-22 12:27:11,850 [Worker-148: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: SessionLogin2:SessionLogin2:0.0.1-SNAPSHOT @ C:\_dev\workspace\SessionLogin2\pom.xml.
+2025-08-22 12:27:12,122 [Worker-148: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SessionLogin2/src/main/java
+2025-08-22 12:27:12,122 [Worker-148: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SessionLogin2/src/main/resources
+2025-08-22 12:27:12,122 [Worker-148: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SessionLogin2/src/test/java
+2025-08-22 12:27:12,123 [Worker-148: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SessionLogin2/src/test/resources
+2025-08-22 12:27:12,243 [Worker-148: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-22 12:27:12,255 [Worker-148: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: SessionLogin2:SessionLogin2:0.0.1-SNAPSHOT @ C:\_dev\workspace\SessionLogin2\pom.xml.
+2025-08-22 12:27:12,452 [Worker-148: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SessionLogin2/src/main/java
+2025-08-22 12:27:12,452 [Worker-148: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SessionLogin2/src/main/resources
+2025-08-22 12:27:12,453 [Worker-148: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SessionLogin2/src/test/java
+2025-08-22 12:27:12,453 [Worker-148: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SessionLogin2/src/test/resources
+2025-08-22 12:27:12,507 [Worker-148: Enabling Maven Dependency Management] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for SessionLogin2
+2025-08-22 12:27:12,517 [Worker-148: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-08-22 12:27:12,638 [Worker-148: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:27:12,638 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\main\resources
+2025-08-22 12:27:12,639 [Worker-148: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:27:12,639 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\test\resources
+2025-08-22 12:27:12,639 [Worker-148: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SessionLogin2
+2025-08-22 12:27:12,639 [Worker-148: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SessionLogin2
+2025-08-22 12:27:25,448 [Worker-144: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: SessionLogin2:SessionLogin2:0.0.1-SNAPSHOT @ C:\_dev\workspace\SessionLogin2\pom.xml.
+2025-08-22 12:27:25,463 [Worker-144: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:27:25,463 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\main\resources
+2025-08-22 12:27:25,464 [Worker-144: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:27:25,464 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\test\resources
+2025-08-22 12:27:25,464 [Worker-144: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SessionLogin2
+2025-08-22 12:27:25,464 [Worker-144: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SessionLogin2
+2025-08-22 12:27:40,632 [Worker-152: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: SessionLogin2:SessionLogin2:0.0.1-SNAPSHOT @ C:\_dev\workspace\SessionLogin2\pom.xml.
+2025-08-22 12:27:40,667 [Worker-152: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:27:40,668 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\main\resources
+2025-08-22 12:27:40,668 [Worker-152: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:27:40,668 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\test\resources
+2025-08-22 12:27:40,669 [Worker-152: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SessionLogin2
+2025-08-22 12:27:40,669 [Worker-152: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SessionLogin2
+2025-08-22 12:30:34,312 [Worker-155: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:30:34,313 [Worker-155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\main\resources
+2025-08-22 12:30:34,314 [Worker-155: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:30:34,314 [Worker-155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\test\resources
+2025-08-22 12:31:23,478 [Worker-144: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:31:23,478 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\main\resources
+2025-08-22 12:31:23,478 [Worker-144: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:31:23,479 [Worker-144: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\test\resources
+2025-08-22 12:31:25,558 [Worker-152: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:31:25,558 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\main\resources
+2025-08-22 12:31:25,559 [Worker-152: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:31:25,559 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\test\resources
+2025-08-22 12:31:54,211 [Worker-149: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:31:54,211 [Worker-149: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\main\resources
+2025-08-22 12:31:54,212 [Worker-149: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:31:54,212 [Worker-149: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\test\resources
+2025-08-22 12:31:58,285 [Worker-155: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:31:58,286 [Worker-155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\main\resources
+2025-08-22 12:31:58,286 [Worker-155: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:31:58,287 [Worker-155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\test\resources
+2025-08-22 12:32:32,733 [Worker-154: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:32:32,734 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\main\resources
+2025-08-22 12:32:32,735 [Worker-154: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:32:32,735 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\test\resources
+2025-08-22 12:32:42,055 [Worker-149: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:32:42,055 [Worker-149: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\main\resources
+2025-08-22 12:32:42,056 [Worker-149: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:32:42,056 [Worker-149: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\test\resources
+2025-08-22 12:32:49,494 [Worker-152: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:32:49,494 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\main\resources
+2025-08-22 12:32:49,495 [Worker-152: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:32:49,496 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\test\resources
+2025-08-22 12:33:04,058 [Worker-148: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:33:04,059 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\main\resources
+2025-08-22 12:33:04,060 [Worker-148: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:33:04,060 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\test\resources
+2025-08-22 12:33:08,486 [Worker-155: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:33:08,487 [Worker-155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\main\resources
+2025-08-22 12:33:08,487 [Worker-155: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:33:08,488 [Worker-155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\test\resources
+2025-08-22 12:33:19,627 [Worker-155: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:33:19,628 [Worker-155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\main\resources
+2025-08-22 12:33:19,635 [Worker-155: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:33:19,635 [Worker-155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\test\resources
+2025-08-22 12:33:23,389 [Worker-150: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:33:23,390 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\main\resources
+2025-08-22 12:33:23,390 [Worker-150: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:33:23,391 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\test\resources
+2025-08-22 12:33:50,773 [Worker-148: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:33:50,773 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\main\resources
+2025-08-22 12:33:50,774 [Worker-148: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-08-22 12:33:50,774 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\_dev\workspace\SessionLogin2\src\test\resources
