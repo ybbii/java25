@@ -2,32 +2,34 @@ package mvc.controller;
 
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Properties;
-import java.util.concurrent.ConcurrentHashMap;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import mvc.command.CommandHandler;
 
+
 /**
  * Servlet implementation class ControllerUsingFile
  */
-@WebServlet("/ControllerUsingFile")
+//@WebServlet("/ControllerUsingFile")
 public class ControllerUsingFile extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
-	 private Map<String, CommandHandler> commandHandlerMap = new ConcurrentHashMap<>();
-       
-
-	@Override
+	// <커맨드, 핸들러인스턴스> 매핑 정보 저장
+    private Map<String, CommandHandler> commandHandlerMap = new HashMap<>();
+    
+    @Override
 	public void init() throws ServletException {
-		String configFile = getInitParameter("configFile");
+    	String configFile = getInitParameter("configFile");
+    	System.out.println(configFile);
         Properties prop = new Properties();
         String configFilePath = getServletContext().getRealPath(configFile);
         try (FileReader fis = new FileReader(configFilePath)) {
@@ -50,50 +52,47 @@ public class ControllerUsingFile extends HttpServlet {
             }
         }
 	}
-	
-    @Override
-    protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String command = req.getParameter("command");  // 예: /ControllerUsingFile?command=hello
 
-        CommandHandler handler = commandHandlerMap.get(command);
-        if (handler != null) {
-            String view = handler.process(req, resp);
-            if (view != null) {
-                req.getRequestDispatcher(view).forward(req, resp);
-            }
-        } else {
-            resp.sendError(HttpServletResponse.SC_NOT_FOUND, "Command not found: " + command);
-        }
-    }
-
-    @Override
-    public void destroy() {
-        // 서블릿 종료 시, 자원 정리 등을 처리할 수 있음
-    }
-    
-	/**
-     * @see HttpServlet#HttpServlet()
-     */
-    public ControllerUsingFile() {
-        super();
-        // TODO Auto-generated constructor stub
-    }
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+		process(request, response);
 	}
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		doGet(request, response);
+		process(request, response);
 	}
 	
-	
+	private void process(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String command = request.getParameter("cmd");
+		CommandHandler handler = commandHandlerMap.get(command);
+		String viewPage = null;
+		
+		try {
+			viewPage = handler.process(request, response);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		if (viewPage != null) {
+	        RequestDispatcher dispatcher = request.getRequestDispatcher(viewPage);
+	        dispatcher.forward(request, response);
+//	        request.getRequestDispatcher(viewPage).forward(request, response);
+        }
+		
+	}
 
 }
+
+
+
+
+
+
+
