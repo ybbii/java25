@@ -1,0 +1,24 @@
+package chap8;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class Main {
+
+	private static AnnotationConfigApplicationContext ctx = null;
+	
+	public static void main(String[] args) {
+		ctx = new AnnotationConfigApplicationContext(AppCtx.class);
+		MemberDao dao = ctx.getBean(MemberDao.class);
+		
+//		Member mem = new Member("aaa@korea.com", "1234", "홍", null);
+//		dao.insert(mem);
+//		System.out.println("입력성공");
+		
+//		Member member = dao.selectByEmail1("aaa@korea.com");
+//		System.out.println(member);
+		
+		Member member = dao.selectByEmail2("aaa@korea.com");
+		System.out.println(member);
+	}
+
+}
